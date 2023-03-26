@@ -1,0 +1,21 @@
+
+Font Awesome Icons
+<script src="https://kit.fontawesome.com/01fe7a0839.js" crossorigin="anonymous"></script>
+    - Menu Bar
+    <i class="fa-solid fa-bars"></i>
+
+    - Close Btn
+    <i class="fa-solid fa-x"></i>
+
+
+Scrolling text animation (Hyperplexed)
+
+Color Palette
+ --color-primary: #09171B;
+ --color-on-primary: #BDCBC4;
+ --bg: #111;
+ --color-menu-btn: #05171D;
+
+Font Family
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+  --ff-mono: 'Space Mono', monospace;

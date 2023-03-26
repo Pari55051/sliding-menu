@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+    --bg: #111;
+    --color-primary: #09171B;
+    --color-on-primary: #BDCBC4;
+    --color-menu-btn: #05171D;
+    --ff-mono: 'Space Mono', monospace;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg);
+    background-image: url(../images/bg.png);
+    background-size: 100%;
+    background-position: -5px;
+    font-family: var(--ff-mono);
+    overflow: hidden;
+}
+
+.nav-toggler {
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    color: var(--color-on-primary);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 3;
+    color: var(--color-menu-btn);
+}
+
+nav {
+    height: 100vh;
+    width: 25vw;
+    position: fixed;
+    right: -500px;
+    color: var(--color-on-primary);
+    font-size: 2.1rem;
+    background: var(--color-primary);
+    padding: 1rem;
+    padding-top: 7rem;
+    transition: right 500ms ease;
+}
+
+.nav-item {
+    margin-bottom: 1.4rem;
+    cursor: pointer;
+}
+
+.show-menu {
+    position: fixed;
+    right: 0;
+}
