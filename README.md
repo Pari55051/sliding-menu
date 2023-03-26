@@ -1,5 +1,5 @@
 # Sliding Menu
-Sliding Menu Bar with scrolling text
+Sliding Menu Bar with scrolling text on hover
 
 [Live Demo](https://pari55051.github.io/sliding-menu/)
 
@@ -8,4 +8,7 @@ Sliding Menu Bar with scrolling text
 - CSS
 - Vanilla JS
 
-Icons from font awesome
+## Credits
+- Icons from font awesome
+- Scrolling Text code from HYPERPLEXED youtube channel
+- Image from google search
